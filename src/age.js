@@ -33,7 +33,13 @@ export class Age {
   }
 
   earthYearsLeft() {
-    return this.earthYearLifeExpectancy - this.earthYears;
+    let numberOfEarthYearsLeft = this.earthYearLifeExpectancy - this.earthYears;
+    if (numberOfEarthYearsLeft > 0) {
+      return numberOfEarthYearsLeft;
+    } else {
+      let extraYears = Math.abs(numberOfEarthYearsLeft);
+      return `${extraYears} Earth years longer than expected`
+    }
   }
 
   mercuryYearsLeft() {
