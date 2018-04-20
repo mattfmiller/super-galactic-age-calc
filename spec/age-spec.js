@@ -7,8 +7,9 @@ describe('Test', function(){
     age = new Age(1);
   });
 
-  it('should test whether an age in Earth years has been converted to seconds', function(){
+  it('should correctly determine how many seconds are in a given number of Earth years', function(){
     let seconds = age.toSeconds();
     expect(seconds).toEqual(31536000);
   });
+
 });
