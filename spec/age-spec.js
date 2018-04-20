@@ -32,4 +32,9 @@ describe('Test', function(){
     expect(venusYears).toEqual(1.62);
   });
 
+  it('should correctly convert age to Mars years', function(){
+    let marsYears = age.toMarsYears();
+    expect(marsYears).toEqual(0.53);
+  });
+
 });
