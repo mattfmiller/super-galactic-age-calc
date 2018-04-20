@@ -9,7 +9,7 @@ describe('Test', function(){
   beforeEach(function(){
     currentDate = 'April 20, 2018 00:00:10';
     age = new Age('April 20, 2017');
-    oldAge = new Age('April 20, 1957');
+    oldAge = new Age('April 20, 1958');
     console.log(age);
     console.log(oldAge);
   });
@@ -45,7 +45,7 @@ describe('Test', function(){
   });
 
   it('should calculate how many more Earth years one is expected to live', function(){
-    let yearsLeftOnEarth = oldAge.earthYearsLeft(8.33);
+    let yearsLeftOnEarth = oldAge.earthYearsLeft();
     expect(yearsLeftOnEarth).toEqual(10.5);
   });
 

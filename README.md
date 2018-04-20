@@ -18,11 +18,11 @@ This webpage will allow a user to input their birthday. The application will the
 | The program will convert an age from Earth years to Venus years | Input: April 20, 2017 | Output: 1.61 Venus years |
 | The program will convert an age from Earth years to Mars years | Input: April 20, 2017 | Output: 0.53 Mars years |
 | The program will convert an age from Earth years to Jupiter years | Input: April 20, 2017 | Output: 0.08 Jupiter years |
-| The program will calculate the difference between an age in Earth years and a life expectancy in Earth years| Input: 60 Earth years | Output: 10.5 Earth years |
-| The program will calculate the difference between an age in Earth years and a life expectancy in Mercury years| Input: 60 Earth years | Output: 43.75 Mercury years |
-| The program will calculate the difference between an age in Earth years and a life expectancy in Venus years| Input: 60 Earth years | Output: 16.94 Venus years |
-| The program will calculate the difference between an age in Earth years and a life expectancy in Mars years| Input: 60 Earth years | Output: 5.59 Mars years |
-| The program will calculate the difference between an age in Earth years and a life expectancy in Jupiter years| Input: 60 Earth years | Output: 0.89 Jupiter years |
+| The program will calculate the difference between an age in Earth years and a life expectancy in Earth years| Input: April 20, 1958 | Output: 10.5 Earth years |
+| The program will calculate the difference between an age in Earth years and a life expectancy in Mercury years| Input: April 20, 1958 | Output: 43.75 Mercury years |
+| The program will calculate the difference between an age in Earth years and a life expectancy in Venus years| Input: April 20, 1958 | Output: 16.94 Venus years |
+| The program will calculate the difference between an age in Earth years and a life expectancy in Mars years| Input: April 20, 1958 | Output: 5.59 Mars years |
+| The program will calculate the difference between an age in Earth years and a life expectancy in Jupiter years| Input: April 20, 1958 | Output: 0.89 Jupiter years |
 
 
 ## Setup/Installation Requirements
