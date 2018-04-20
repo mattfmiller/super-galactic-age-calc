@@ -49,4 +49,10 @@ describe('Test', function(){
     expect(yearsLeftOnEarth).toEqual(10.5);
   });
 
+  it('should calculate how many more Mercury years one is expected to live', function(){
+    let yearsLeftOnMercury = oldAge.mercuryYearsLeft();
+    expect(yearsLeftOnMercury).toBeCloseTo(44);
+  });
+
+
 });
