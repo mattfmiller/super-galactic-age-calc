@@ -63,7 +63,7 @@ describe('Test', function(){
 
   it('should calculate how many more Mars years one is expected to live', function(){
     let yearsLeftOnMars = oldAge.marsYearsLeft();
-    expect(yearsLeftOnMars).toBeCloseTo(5.59, 1);
+    expect(yearsLeftOnMars).toEqual(5.59);
   });
 
   it('should calculate how many more Jupiter years one is expected to live', function(){
