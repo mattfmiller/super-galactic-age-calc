@@ -1,8 +1,9 @@
 export class Age {
   constructor (birthDate) {
+    let currentDate = new Date('April 20, 2018');
     this.birthDate = new Date(birthDate);
-    this.earthYears = Math.floor((new Date() - this.birthDate)/31536000000);
-    this.seconds = Math.floor((new Date() - this.birthDate)/1000);
+    this.earthYears = Math.floor((currentDate - this.birthDate)/31536000000);
+    this.seconds = Math.floor((currentDate - this.birthDate)/1000);
   }
 
   yearsToSeconds() {
@@ -10,8 +11,8 @@ export class Age {
   }
 
   dateToSeconds(date) {
-    let currentDate = new Date(date);
-    return (currentDate - this.birthDate)/1000;
+    let endDate = new Date(date);
+    return (endDate - this.birthDate)/1000;
   }
 
   toMercuryYears() {

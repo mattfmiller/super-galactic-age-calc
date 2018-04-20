@@ -6,7 +6,7 @@ describe('Test', function(){
   var currentDate;
 
   beforeEach(function(){
-    currentDate = "April 20, 2018 00:00:10";
+    currentDate = 'April 20, 2018 00:00:10';
     birthDate = 'April 20, 2017';
     age = new Age(birthDate);
     console.log(age);
@@ -29,7 +29,7 @@ describe('Test', function(){
 
   it('should correctly convert age to Venus years', function(){
     let venusYears = age.toVenusYears();
-    expect(venusYears).toEqual(1.62);
+    expect(venusYears).toEqual(1.61);
   });
 
   it('should correctly convert age to Mars years', function(){
