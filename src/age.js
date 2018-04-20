@@ -53,7 +53,13 @@ export class Age {
   }
 
   venusYearsLeft() {
-    return Math.round(((this.earthYearLifeExpectancy - this.earthYears)/0.62)*100)/100;
+    let numberOfVenusYearsLeft = Math.round(((this.earthYearLifeExpectancy - this.earthYears)/0.62)*100)/100;
+    if (numberOfVenusYearsLeft > 0) {
+      return numberOfVenusYearsLeft;
+    } else {
+      let extraYears = Math.abs(numberOfVenusYearsLeft);
+      return `${extraYears} Venus years longer than expected`
+    }
   }
 
   marsYearsLeft() {

@@ -83,7 +83,7 @@ describe('Test', function(){
 
   it('should calculate how many Venus years over expectations one has lived', function(){
     let yearsOverOnVenus = veryOldAge.venusYearsLeft();
-    expect(yearsOverOnVenus).toEqual("43.75 Venus years longer than expected");
+    expect(yearsOverOnVenus).toEqual("16.94 Venus years longer than expected");
   });
 
 });
