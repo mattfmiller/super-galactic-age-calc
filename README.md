@@ -48,10 +48,15 @@ For Support, contact: matt.f.miller@live.com
 ## Technologies Used
 
 * HTML
-* CSS _(Bootstrap)_
-* JavaScript _(jQuery)_
+* JavaScript
 * Node
+* npm
 * Webpack
+* ESLint
+* Babel
+* Jasmine
+* Karma
+
 
 
 ### License
