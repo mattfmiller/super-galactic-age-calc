@@ -76,4 +76,10 @@ describe('Test', function(){
     expect(yearsOverOnEarth).toEqual("10.5 Earth years longer than expected");
   });
 
+  it('should calculate how many Mercury years over expectations one has lived', function(){
+    let yearsOverOnMercury = veryOldAge.mercuryYearsLeft();
+    expect(yearsOverOnMercury).toEqual("43.75 Mercury years longer than expected");
+  });
+
+
 });
