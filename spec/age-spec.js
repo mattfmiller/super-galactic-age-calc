@@ -64,5 +64,9 @@ describe('Test', function(){
     expect(yearsLeftOnMars).toBeCloseTo(5.59, 1);
   });
 
+  it('should calculate how many more Jupiter years one is expected to live', function(){
+    let yearsLeftOnJupiter = oldAge.jupiterYearsLeft();
+    expect(yearsLeftOnJupiter).toBeCloseTo(0.89, 1);
+  });
 
 });
