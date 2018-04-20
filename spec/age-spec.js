@@ -59,4 +59,10 @@ describe('Test', function(){
     expect(yearsLeftOnVenus).toBeCloseTo(16.94, 0);
   });
 
+  it('should calculate how many more Mars years one is expected to live', function(){
+    let yearsLeftOnMars = oldAge.MarsYearsLeft();
+    expect(yearsLeftOnMars).toBeCloseTo(5.59, 1);
+  });
+
+
 });
