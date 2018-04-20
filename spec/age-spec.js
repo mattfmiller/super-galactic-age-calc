@@ -4,12 +4,14 @@ describe('Test', function(){
   var currentDate;
   var age;
   var oldAge;
+  var veryOldAge
 
 
   beforeEach(function(){
     currentDate = 'April 20, 2018 00:00:10';
     age = new Age('April 20, 2017');
     oldAge = new Age('April 20, 1958');
+    veryOldAge = new Age ('April 20, 1937')
     console.log(age);
     console.log(oldAge);
   });
@@ -67,6 +69,11 @@ describe('Test', function(){
   it('should calculate how many more Jupiter years one is expected to live', function(){
     let yearsLeftOnJupiter = oldAge.jupiterYearsLeft();
     expect(yearsLeftOnJupiter).toBeCloseTo(0.89, 1);
+  });
+
+  it('should calculate how many Earth years over expectations one has lived', function(){
+    let yearsOverOnEarth = veryOldAge.earthYearsLeft();
+    expect(yearsOverOnEarth).toEqual("10.5 Earth years longer than expected");
   });
 
 });
