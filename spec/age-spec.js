@@ -37,4 +37,9 @@ describe('Test', function(){
     expect(marsYears).toEqual(0.53);
   });
 
+  it('should correctly convert age to Jupiter years', function(){
+    let jupiterYears = age.toJupiterYears();
+    expect(jupiterYears).toEqual(0.53);
+  });
+
 });
