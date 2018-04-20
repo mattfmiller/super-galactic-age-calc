@@ -39,7 +39,7 @@ describe('Test', function(){
 
   it('should correctly convert age to Jupiter years', function(){
     let jupiterYears = age.toJupiterYears();
-    expect(jupiterYears).toEqual(0.53);
+    expect(jupiterYears).toEqual(0.08);
   });
 
 });
