@@ -29,7 +29,7 @@ describe('Test', function(){
 
   it('should correctly convert age to Venus years', function(){
     let venusYears = age.toVenusYears();
-    expect(venusYears).toEqual(1.61);
+    expect(venusYears).toEqual(1.62);
   });
 
 });

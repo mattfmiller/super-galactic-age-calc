@@ -17,4 +17,8 @@ export class Age {
   toMercuryYears() {
     return Math.round((this.seconds/7568640)*100)/100; //seconds in a mercury year//
   }
+
+  toVenusYears() {
+    return Math.round((this.seconds/19552320)*100)/100; //seconds in a mercury year//
+  }
 }
