@@ -46,7 +46,7 @@ describe('Test', function(){
 
   it('should calculate how many more Earth years one is expected to live', function(){
     let yearsLeftOnEarth = oldAge.earthYearsLeft(8.33);
-    expect(yearsLeftOnEarth).toEqual(0.08);
+    expect(yearsLeftOnEarth).toEqual(10.5);
   });
 
 });
