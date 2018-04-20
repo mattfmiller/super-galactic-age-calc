@@ -12,8 +12,6 @@ describe('Test', function(){
     age = new Age('April 20, 2017');
     oldAge = new Age('April 20, 1958');
     veryOldAge = new Age ('April 20, 1937')
-    console.log(age);
-    console.log(oldAge);
   });
 
   it('should correctly determine how many seconds are in a given number of Earth years', function(){

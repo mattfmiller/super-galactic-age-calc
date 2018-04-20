@@ -1,6 +1,6 @@
 export class Age {
   constructor (birthDate) {
-    let currentDate = new Date('April 20, 2018');
+    let currentDate = new Date('April 20, 2018'); //set to new Date() for actual current time//
     this.birthDate = new Date(birthDate);
     this.earthYears = Math.floor((currentDate - this.birthDate)/31536000000);
     this.seconds = Math.floor((currentDate - this.birthDate)/1000);
@@ -81,5 +81,4 @@ export class Age {
       return `${extraYears} Jupiter years longer than expected`;
     }
   }
-
 }
