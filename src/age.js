@@ -4,6 +4,7 @@ export class Age {
     this.birthDate = new Date(birthDate);
     this.earthYears = Math.floor((currentDate - this.birthDate)/31536000000);
     this.seconds = Math.floor((currentDate - this.birthDate)/1000);
+    this.earthYearLifeExpectancy = 70.5; //global average from 2010-2015//
   }
 
   yearsToSeconds() {
@@ -29,6 +30,10 @@ export class Age {
 
   toJupiterYears() {
     return Math.round((this.seconds/374016960)*100)/100; //seconds in a mars year//
+  }
+
+  earthYearsLeft() {
+    return this.earthYearLifeExpectancy - this.earthYears;
   }
 
 }
