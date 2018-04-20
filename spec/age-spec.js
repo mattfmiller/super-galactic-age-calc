@@ -1,15 +1,17 @@
 import {Age} from './../src/age.js'
 
 describe('Test', function(){
-  var age;
-  var birthDate;
   var currentDate;
+  var age;
+  var oldAge;
+
 
   beforeEach(function(){
     currentDate = 'April 20, 2018 00:00:10';
-    birthDate = 'April 20, 2017';
-    age = new Age(birthDate);
+    age = new Age('April 20, 2017');
+    oldAge = new Age('April 20, 1957');
     console.log(age);
+    console.log(oldAge);
   });
 
   it('should correctly determine how many seconds are in a given number of Earth years', function(){
@@ -40,6 +42,11 @@ describe('Test', function(){
   it('should correctly convert age to Jupiter years', function(){
     let jupiterYears = age.toJupiterYears();
     expect(jupiterYears).toEqual(0.08);
+  });
+
+  it('should calculate how many more Earth years one is expected to live', function(){
+    let yearsLeftOnEarth = oldAge.earthYearsLeft(8.33);
+    expect(yearsLeftOnEarth).toEqual(0.08);
   });
 
 });
