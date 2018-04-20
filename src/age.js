@@ -26,4 +26,8 @@ export class Age {
     return Math.round((this.seconds/59287680)*100)/100; //seconds in a mars year//
   }
 
+  toJupiterYears() {
+    return Math.round((this.seconds/374016960)*100)/100; //seconds in a mars year//
+  }
+
 }
