@@ -22,4 +22,9 @@ describe('Test', function(){
     expect(secondsBetweenDates).toEqual(31536010);
   });
 
+  it('should correctly convert Earth years to Mercury years', function(){
+    let mercuryYears = age.toMercuryYears();
+    expect(mercuryYears).toEqual(4.17);
+  });
+
 });
