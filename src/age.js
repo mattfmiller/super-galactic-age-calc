@@ -29,7 +29,7 @@ export class Age {
   }
 
   toJupiterYears() {
-    return Math.round((this.seconds/374016960)*100)/100; //seconds in a mars year//
+    return Math.round((this.seconds/374016960)*100)/100; //seconds in a jupiter year//
   }
 
   earthYearsLeft() {
@@ -52,6 +52,12 @@ export class Age {
     let marsYearLifeExpectancy = this.earthYearLifeExpectancy/1.88
     let marsYears = this.seconds/59287680;
     return marsYearLifeExpectancy - marsYears;
+  }
+
+  jupiterYearsLeft() {
+    let jupiterYearLifeExpectancy = this.earthYearLifeExpectancy/11.86
+    let jupiterYears = this.seconds/374016960;
+    return jupiterYearLifeExpectancy - jupiterYears;
   }
 
 }
