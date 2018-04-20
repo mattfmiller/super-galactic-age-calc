@@ -73,7 +73,13 @@ export class Age {
   }
 
   jupiterYearsLeft() {
-    return Math.round(((this.earthYearLifeExpectancy - this.earthYears)/11.86)*100)/100;
+    let numberOfJupiterYearsLeft = Math.round(((this.earthYearLifeExpectancy - this.earthYears)/11.86)*100)/100;
+    if (numberOfJupiterYearsLeft > 0) {
+      return numberOfJupiterYearsLeft;
+    } else {
+      let extraYears = Math.abs(numberOfJupiterYearsLeft);
+      return `${extraYears} Jupiter years longer than expected`
+    }
   }
 
 }
