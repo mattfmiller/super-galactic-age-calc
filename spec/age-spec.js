@@ -51,8 +51,12 @@ describe('Test', function(){
 
   it('should calculate how many more Mercury years one is expected to live', function(){
     let yearsLeftOnMercury = oldAge.mercuryYearsLeft();
-    expect(yearsLeftOnMercury).toBeCloseTo(44);
+    expect(yearsLeftOnMercury).toBeCloseTo(43.75, 0);
   });
-
+  //
+  // it('should calculate how many more Venus years one is expected to live', function(){
+  //   let yearsLeftOnVenus = oldAge.venusYearsLeft();
+  //   expect(yearsLeftOnVenus).toBeCloseTo(17);
+  // });
 
 });
