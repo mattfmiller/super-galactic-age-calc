@@ -91,4 +91,9 @@ describe('Test', function(){
     expect(yearsOverOnMars).toEqual("5.59 Mars years longer than expected");
   });
 
+  it('should calculate how many Jupiter years over expectations one has lived', function(){
+    let yearsOverOnJupiter = veryOldAge.jupiterYearsLeft();
+    expect(yearsOverOnJupiter).toEqual("0.89 Jupiter years longer than expected");
+  });
+
 });
