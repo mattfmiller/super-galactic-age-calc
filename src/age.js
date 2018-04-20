@@ -38,7 +38,7 @@ export class Age {
       return numberOfEarthYearsLeft;
     } else {
       let extraYears = Math.abs(numberOfEarthYearsLeft);
-      return `${extraYears} Earth years longer than expected`
+      return `${extraYears} Earth years longer than expected`;
     }
   }
 
@@ -48,7 +48,7 @@ export class Age {
       return numberOfMercuryYearsLeft;
     } else {
       let extraYears = Math.abs(numberOfMercuryYearsLeft);
-      return `${extraYears} Mercury years longer than expected`
+      return `${extraYears} Mercury years longer than expected`;
     }
   }
 
@@ -58,7 +58,7 @@ export class Age {
       return numberOfVenusYearsLeft;
     } else {
       let extraYears = Math.abs(numberOfVenusYearsLeft);
-      return `${extraYears} Venus years longer than expected`
+      return `${extraYears} Venus years longer than expected`;
     }
   }
 
@@ -68,7 +68,7 @@ export class Age {
       return numberOfMarsYearsLeft;
     } else {
       let extraYears = Math.abs(numberOfMarsYearsLeft);
-      return `${extraYears} Mars years longer than expected`
+      return `${extraYears} Mars years longer than expected`;
     }
   }
 
@@ -78,7 +78,7 @@ export class Age {
       return numberOfJupiterYearsLeft;
     } else {
       let extraYears = Math.abs(numberOfJupiterYearsLeft);
-      return `${extraYears} Jupiter years longer than expected`
+      return `${extraYears} Jupiter years longer than expected`;
     }
   }
 
