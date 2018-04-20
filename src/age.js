@@ -47,9 +47,7 @@ export class Age {
   }
 
   venusYearsLeft() {
-    let venusYearLifeExpectancy = this.earthYearLifeExpectancy/0.62
-    let venusYears = this.seconds/19552320;
-    return venusYearLifeExpectancy - venusYears;
+    return Math.round(((this.earthYearLifeExpectancy - this.earthYears)/0.62)*100)/100;
   }
 
   marsYearsLeft() {

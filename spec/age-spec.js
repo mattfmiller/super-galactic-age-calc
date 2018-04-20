@@ -58,7 +58,7 @@ describe('Test', function(){
 
   it('should calculate how many more Venus years one is expected to live', function(){
     let yearsLeftOnVenus = oldAge.venusYearsLeft();
-    expect(yearsLeftOnVenus).toBeCloseTo(16.94, 0);
+    expect(yearsLeftOnVenus).toEqual(16.94);
   });
 
   it('should calculate how many more Mars years one is expected to live', function(){
