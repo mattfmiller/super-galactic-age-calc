@@ -23,11 +23,11 @@ This webpage will allow a user to input their birthday. The application will the
 | The program will calculate remaining life expectancy in Venus years| Input: April 20, 1958 | Output: ~16.94 Venus years |
 | The program will calculate remaining life expectancy in Mars years| Input: April 20, 1958 | Output: ~5.59 Mars years |
 | The program will calculate remaining life expectancy in Jupiter years| Input: April 20, 1958 | Output: ~0.89 Jupiter years |
-| If a age exceeds life expectancy, program will calculate how much longer than expected one has lived in Earth years | Input: April 20, 1946 | Output: ~1.05 Earth years longer than expected |
-| If a age exceeds life expectancy, program will calculate how much longer than expected one has lived in Mercury years | Input: April 20, 1946 | Output: ~4.38 Mercury years longer than expected |
-| If a age exceeds life expectancy, program will calculate how much longer than expected one has lived in Venus years | Input: April 20, 1946 | Output: ~1.64 Venus years longer than expected |
-| If a age exceeds life expectancy, program will calculate how much longer than expected one has lived in Mars years | Input: April 20, 1946 | Output: ~0.56 Mars years longer than expected |
-| If a age exceeds life expectancy, program will calculate how much longer than expected one has lived in Jupiter years | Input: April 20, 1946 | Output: ~0.09 Jupiter years longer than expected |
+| If an age exceeds life expectancy, program will calculate how much longer than expected one has lived in Earth years | Input: April 20, 1937 | Output: ~10.5 Earth years longer than expected |
+| If an age exceeds life expectancy, program will calculate how much longer than expected one has lived in Mercury years | Input: April 20, 1937 | Output: ~43.75 Mercury years longer than expected |
+| If an age exceeds life expectancy, program will calculate how much longer than expected one has lived in Venus years | Input: April 20, 1937 | Output: ~16.94 Venus years longer than expected |
+| If an age exceeds life expectancy, program will calculate how much longer than expected one has lived in Mars years | Input: April 20, 1937 | Output: ~5.59 Mars years longer than expected |
+| If an age exceeds life expectancy, program will calculate how much longer than expected one has lived in Jupiter years | Input: April 20, 1937 | Output: ~0.89 Jupiter years longer than expected |
 
 
 
