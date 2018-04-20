@@ -43,7 +43,13 @@ export class Age {
   }
 
   mercuryYearsLeft() {
-    return (this.earthYearLifeExpectancy - this.earthYears)/0.24;
+    let numberOfMercuryYearsLeft = (this.earthYearLifeExpectancy - this.earthYears)/0.24;
+    if (numberOfMercuryYearsLeft > 0) {
+      return numberOfMercuryYearsLeft;
+    } else {
+      let extraYears = Math.abs(numberOfMercuryYearsLeft);
+      return `${extraYears} Mercury years longer than expected`
+    }
   }
 
   venusYearsLeft() {
