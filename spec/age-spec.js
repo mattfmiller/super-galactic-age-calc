@@ -68,7 +68,7 @@ describe('Test', function(){
 
   it('should calculate how many more Jupiter years one is expected to live', function(){
     let yearsLeftOnJupiter = oldAge.jupiterYearsLeft();
-    expect(yearsLeftOnJupiter).toBeCloseTo(0.89, 1);
+    expect(yearsLeftOnJupiter).toEqual(0.89);
   });
 
   it('should calculate how many Earth years over expectations one has lived', function(){

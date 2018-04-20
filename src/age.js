@@ -55,9 +55,7 @@ export class Age {
   }
 
   jupiterYearsLeft() {
-    let jupiterYearLifeExpectancy = this.earthYearLifeExpectancy/11.86
-    let jupiterYears = this.seconds/374016960;
-    return jupiterYearLifeExpectancy - jupiterYears;
+    return Math.round(((this.earthYearLifeExpectancy - this.earthYears)/11.86)*100)/100;
   }
 
 }
