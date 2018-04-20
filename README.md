@@ -13,11 +13,11 @@ This webpage will allow a user to input their birthday. The application will the
 | Specification | Input | Output |
 | --- | --- | --- |
 | The program will convert an age in Earth years to an age in seconds | Input: 1 Year | Output: 31536000 Seconds |
-| The program will take a date in the past and calculate how many seconds have elapsed since that date | Input: 'April 20, 2017 08:20:00' | Output: 31536000 |
-| The program will convert an age from Earth years to Mercury years | Input: 1 Earth year | Output: 4.17 Mercury years |
-| The program will convert an age from Earth years to Venus years | Input: 1 Earth year | Output: 1.61 Venus years |
-| The program will convert an age from Earth years to Mars years | Input: 1 Earth year | Output: 0.53 Mars years |
-| The program will convert an age from Earth years to Jupiter years | Input: 1 Earth year | Output: 0.08 Jupiter years |
+| The program will take a current and a date in the past and calculate how many seconds have elapsed between them | Input: 'April 20, 2018 00:00:10', 'April 20, 2017 08:20:00' | Output: 31536010 |
+| The program will convert an age from Earth years to Mercury years | Input: April 20, 2017 | Output: 4.17 Mercury years |
+| The program will convert an age from Earth years to Venus years | Input: April 20, 2017 | Output: 1.61 Venus years |
+| The program will convert an age from Earth years to Mars years | Input: April 20, 2017 | Output: 0.53 Mars years |
+| The program will convert an age from Earth years to Jupiter years | Input: April 20, 2017 | Output: 0.08 Jupiter years |
 | The program will calculate the difference between an age in Earth years and a life expectancy in Earth years| Input: 60 Earth years | Output: 8.33 Earth years |
 | The program will calculate the difference between an age in Earth years and a life expectancy in Mercury years| Input: 60 Earth years | Output: 34.71 Mercury years |
 | The program will calculate the difference between an age in Earth years and a life expectancy in Venus years| Input: 60 Earth years | Output: 13.44 Venus years |
