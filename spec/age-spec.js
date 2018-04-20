@@ -86,4 +86,9 @@ describe('Test', function(){
     expect(yearsOverOnVenus).toEqual("16.94 Venus years longer than expected");
   });
 
+  it('should calculate how many Mars years over expectations one has lived', function(){
+    let yearsOverOnMars = veryOldAge.marsYearsLeft();
+    expect(yearsOverOnMars).toEqual("5.59 Mars years longer than expected");
+  });
+
 });
