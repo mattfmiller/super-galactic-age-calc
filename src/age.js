@@ -42,4 +42,10 @@ export class Age {
     return mercuryYearLifeExpectancy - mercuryYears;
   }
 
+  venusYearsLeft() {
+    let venusYearLifeExpectancy = this.earthYearLifeExpectancy/0.62
+    let venusYears = this.seconds/19552320;
+    return venusYearLifeExpectancy - venusYears;
+  }
+
 }
