@@ -63,7 +63,13 @@ export class Age {
   }
 
   marsYearsLeft() {
-    return Math.round(((this.earthYearLifeExpectancy - this.earthYears)/1.88)*100)/100;
+    let numberOfMarsYearsLeft = Math.round(((this.earthYearLifeExpectancy - this.earthYears)/1.88)*100)/100;
+    if (numberOfMarsYearsLeft > 0) {
+      return numberOfMarsYearsLeft;
+    } else {
+      let extraYears = Math.abs(numberOfMarsYearsLeft);
+      return `${extraYears} Mars years longer than expected`
+    }
   }
 
   jupiterYearsLeft() {
